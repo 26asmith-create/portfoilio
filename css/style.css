@@ -10,14 +10,15 @@ html{
     font-size: 125%;
 }
 body{
-    background-color:#f4fce3;
+    background-color:#f1faee;
 }
 
 p{
     
     font-size: 1rem;
-    color:#2C4606;
-     font-family: "Nunito Sans", sans-serif;
+    color:
+#e63946;
+     font-family: "Sniglet", sans-serif;
      line-height: 1.8;
 
     
@@ -26,93 +27,97 @@ p{
 
 
 h1, h2, h3, h4 {
-    font-family: "Lilita One", sans-serif;
+   font-family: "Sniglet", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 h1{
-    font-family: "Lilita One", sans-serif;
+    font-family: "Sniglet", sans-serif;
     font-weight: 400;
   font-style: normal;
     font-size: 3.375rem;
-    color:#74b816;
-    box-shadow: 10px 10px 5px 0px #5c940d(0,0,0,0.75);
-   border: 2px solid #66a80f(11, 130, 160);
+    color:#1d3557;
+    box-shadow: 10px 10px 5px 0px #457b9d(0,0,0,0.75);
+   border: 2px solid #457b9d(11, 130, 160);
   border-radius: 25px; ;
  
 }   
     
 h2{
     
-    /* font-family:Trebuchet; */
+  
     font-size: 2.25rem;
-    color:#74b816;
+    color:
+#a8dadc;
     line-height: 2.1;
 
 }
 h3{
     
-    /* font-family: Arial; */
+
     font-size: 1.5rem;
-    color:#74b816
+    color:#457b9d
 }
 
 a{
     text-decoration: none;
 }
 a:link{
-    color:#5c940d
+    color:#1d3557
 }
 a:visited{
-    color:#c0eb75;
+    color:#1d3557;
 
 }
 
 a:hover{
-    color:#2C4606;
+    color:
+#457b9d;
 
 }
 
 
 
 a:active{
-    color: #74b816;
+    color: #a8dadc;
 
 }
         
 hr{
     border: 0;
    width: 90%;
-  color:#74b816;
-  background-color:#c0eb75;
+  color:#457b9d;
+  background-color:
+#1d3557;
   height:5px;
 }
 
 th{
     
-    color: #74b816;
+    color: #457b9d;
     font-size: 1.2rem;
-    border: 1px #c0eb75;
+    border: 1px #a8dadc;
 
   }
 
 td{
-    color: #74b816;
+    color: #457b9d;
     font-size: 1.1rem;
-    border: 1px #c0eb75;
+    border: 1px #a8dadc;
 
 }
 
 
 
 .class1{
-    color:#74b816;
+    color:#1d3557;
 
 
 }
 
 .class2{
-    color:#c0eb75;
+    color:
+#457b9d;
 
 }
 
@@ -130,5 +135,20 @@ header{
 
 section{
     margin-bottom: 3rem;
+}
+
+header {
+		position: sticky;
+  		top: -15px;
+		padding-top: 15px;
+		opacity: 1;
+		Background-color: #457b9d;
+}
+
+
+.sniglet-extrabold {
+  font-family: "Sniglet", system-ui;
+  font-weight: 800;
+  font-style: normal;
 }
 
