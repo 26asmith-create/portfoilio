@@ -1,29 +1,67 @@
-* {
-     box-sizing: border-box;
+*{
+    margin: 0;
 }
-*:before, *:after {
-     box-sizing: inherit;
+html, body{
+    height: 100%; 
+    width:100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
 
 }
-
-html{
-    font-size: 125%;
+header{
+    position: sticky;
+    top: -16px;
+   padding-top: 16px;
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   background-color:#e63946;
+   width: 100%;
 }
-body{
-    background-color:#f1faee;
+.content{
+     display: flex;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+nav{
+  display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color:#a8dadc;
+   height: 100px;
+   flex:1;
+}
+main{
+     display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #f1faee;
+   height: 1000px;
+   flex:3;
+}
+footer{
+     display: flex;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   background-color: #457b9d;
+   width: 100%;
 }
 
-p{
-    
-    font-size: 1rem;
-    color:
-#e63946;
-     font-family: "Sniglet", sans-serif;
-     line-height: 1.8;
-
-    
+.pic{
+    position: fixed;
+    top:20px;
+    right: 20px;
 }
-
 
 
 h1, h2, h3, h4 {
@@ -31,34 +69,30 @@ h1, h2, h3, h4 {
   font-weight: 400;
   font-style: normal;
 }
+
 h1{
     font-family: "Sniglet", sans-serif;
     font-weight: 400;
   font-style: normal;
     font-size: 3.375rem;
     color:#1d3557;
-    box-shadow: 10px 10px 5px 0px #457b9d(0,0,0,0.75);
-   border: 2px solid #457b9d(11, 130, 160);
-  border-radius: 25px; ;
- 
-}   
-    
+}
+
 h2{
-    
-  
+   
+ 
     font-size: 2.25rem;
     color:
 #a8dadc;
     line-height: 2.1;
 
-}
-h3{
-    
 
+}
+
+h3{
     font-size: 1.5rem;
     color:#457b9d
 }
-
 a{
     text-decoration: none;
 }
@@ -68,87 +102,52 @@ a:link{
 a:visited{
     color:#1d3557;
 
+
 }
+
 
 a:hover{
     color:
 #457b9d;
 
+
 }
+
+
+
 
 
 
 a:active{
     color: #a8dadc;
 
-}
-        
-hr{
-    border: 0;
-   width: 90%;
-  color:#457b9d;
-  background-color:
-#1d3557;
-  height:5px;
-}
-
-th{
-    
-    color: #457b9d;
-    font-size: 1.2rem;
-    border: 1px #a8dadc;
-
-  }
-
-td{
-    color: #457b9d;
-    font-size: 1.1rem;
-    border: 1px #a8dadc;
 
 }
-
-
-
-.class1{
-    color:#1d3557;
-
-
-}
-
-.class2{
-    color:
+       
+footer{
+     display: flex;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   background-color:
 #457b9d;
-
+   width: 100%;
 }
 
-.container{
-    width: 56rem;
-    margin: 3rem auto;
-}
-
-header{
-    border-bottom: 1px dotted #bbbbbb;
-    width: 25rem;
-    margin-bottom: 4rem;
- 
-}
-
-section{
-    margin-bottom: 3rem;
+.pic{
+    position: fixed;
+    top:20px;
+    right: 20px;
 }
 
 header {
-		position: sticky;
-  		top: -15px;
-		padding-top: 15px;
-		opacity: 1;
-		Background-color: #457b9d;
+        position: sticky;
+        top: -15px;
+        padding-top: 15px;
+        opacity: 1;
+        Background-color: #e63946 ;
 }
 
 
-.sniglet-extrabold {
-  font-family: "Sniglet", system-ui;
-  font-weight: 800;
-  font-style: normal;
-}
+
 
